@@ -8,9 +8,9 @@ services:
       - SYS_MODULE
     environment:
       - LANG=es
-      - PASSWORD=p4ssw0rd
-      - WG_DEFAULT_DNS=1.1.1.1
-      - WG_HOST=tu dominio ó la IP pública
+      - CONTRASEÑA=p4ssw0rd
+      - WG_DEFAULT_DNS=1.1.1.1, 8.8.8.8
+      - WG_HOST=205.134.180.147
       - WG_PORT=51820
     ports:
       - 51820:51820/udp
